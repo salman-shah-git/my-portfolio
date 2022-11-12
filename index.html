@@ -21,7 +21,7 @@
     <header class="header">
         <nav class="navbar container">
             <a href="./index.html" class="navbar_logo">
-                <img src="./assets/images/logo.svg" alt="" class="navbar_logo-image">
+                <img src="./assets/images/" alt="" class="navbar_logo-image">
             </a>
             <div class="navbar_menu">
                 <ul class="navbar_list">
@@ -50,19 +50,175 @@
             </nav>
         </header>
     <!--! === MAIN === -->
+        <main>
+            <!--! === SHOWCASE === -->
+            <section class="showcase" id="home">
+                <div class="showcase_container container">
+                    <h1 class="showcase_title title tittle--main">Hello, I'm <span class="name">salman shah</span>, a professional photographer</h1>
+                    <picture class="showcase_image">
+                        <source media="(min-width: 768px)" srcset="./assets/images/image-lg.JPG" class="showcase-image">
+                        <img src="./assets/images/image-sm.JPG" alt="" class="showcase-image">
+                    </picture>
+                </div>
+            </section>
+            <!--! === PORTFOLIO === -->
+            <section class="portfolio" id="portfolio">
+                <div class="portfolio_container container">
+                    <div class="portfolio_metadata setction-metadata">
+                        <h2 class="title">My works</h2>
+                    </div>
+                    <div class="swiper myswiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (16).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (17).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (18).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (19).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (20).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (21).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (23).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (24).JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image (7).JPG" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
 
-    <!--! === SHOWCASE === -->
-
-    <!--! === PORTFOLIO === -->
-
-    <!--! === SERVICES === -->
-
-    <!--! === ABOUT === -->
-
-    <!--! === BLOG === -->
-
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--! === SERVICES === -->
+            <section class="services" id="services">
+                <div class="services_container container">
+                    <div class="services_metadata section-metadata">
+                        <h2 class="title">Services that i provide</h2>
+                        <p class="section-metadata_description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam quis ad consectetur quasi, quam non ipsa impedit neque perspiciatis!
+                        </p>
+                    </div>
+                    <div class="services_image-wrapper">
+                        <img src="./assets/images/image(11).JPG" alt="">
+                    </div>
+                    <div class="services_list">
+                        <div class="services_list-devider">
+                            <article class="services_list-item">
+                                <i class="ri-camera-line services_list-icon"></i>
+                                <h3 class="services_list-title title">Photography</h3>
+                                <p class="services_list-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim?</p>
+                            </article>
+                            <article class="services_list-item">
+                                <i class="ri-vidicon-2-line services_list-icon"></i>
+                                <h3 class="services_list-title title">videography</h3>
+                                <p class="services_list-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim?</p>
+                            </article>
+                            <article class="services_list-item">
+                                <i class="ri-flight-takeoff-line services_list-icon"></i>
+                                <h3 class="services_list-title title">Aerial Photography</h3>
+                                <p class="services_list-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim?</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--! === ABOUT === -->
+            <section class="about" id="about">
+                <div class="about_container container">
+                    <div class="about_information">
+                        <h2 class="about_information-title title">About Salman Shah</h2>
+                        <p class="about_information-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores optio cum incidunt dolor molestias aut consequatur id sit quos consectetur magni, quisquam recusandae asperiores, quasi eligendi dignissimos tempora minima. Laboriosam.</p>
+                        <p class="about_information-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores optio cum incidunt dolor molestias aut consequatur id sit quos consectetur magni, quisquam recusandae asperiores, quasi eligendi dignissimos tempora minima. Laboriosam.</p>
+                        <a href="#" class="btn btn--text btngreen">Learn more</a>
+                    </div>
+                    <div class="about_images">
+                        <img src="./assets/images/image (27).JPG" alt="" class="about_images-image about_images-image--top">
+                        <img src="./assets/images/image (22).JPG" alt="" class="about_images-image about_images-image--bottom">
+                    </div>
+                </div>
+            </section>
+            <!--! === BLOG === -->
+            <section class="blog" id="blog">
+                <div class="blog_container container">
+                    <div class="blog_metadata section-metadata">
+                        <h2 class="title">Latest blog posts</h2>
+                        <p class="blog_metadata-description section-metadata_description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam quis ad consectetur quasi, quam non ipsa impedit neque perspiciatis!
+                        </p>
+                        <a href="#" class="btn btn--text btn--transparent">view all post</a>
+                    </div>
+                    <article class="blog_post post--left">
+                        <picture class="blog_post-image">
+                            <source media="(min-width: 450px)" srcset="./assets/images/image (3).JPG">
+                            <img src="./assets/images/image (3).JPG" alt="">
+                        </picture>
+                        <h2 class="blog_post-title title">sample title</h2>
+                        <a href="#" class="btn btn--text btn--transparent">Read more</a>
+                    </article>
+                    <article class="blog_post post--right">
+                        <picture class="blog_post-image">
+                            <source media="(min-width: 450px)" srcset="./assets/images/image (6).JPG">
+                            <img src="./assets/images/image (6).JPG" alt="">
+                        </picture>
+                        <h2 class="blog_post-title title">sample title</h2>
+                        <a href="#" class="btn btn--text btn--transparent">Read more</a>
+                    </article>
+                </div>
+            </section>
+        </main>
     <!--! === FOOTER === -->
-
+        <footer class="fotter">
+            <div class="footer_container container">
+                <div class="footer_group">
+                    <h2 class="footer_title title tittle--main">Looking for a professional photographer</h2>
+                    <a href="mainto:someone@domain.com" class="btn btn--text btn--transparent">Read more</a>
+                </div>
+                <span class="footer_separator"></span>
+                <div class="footer_group">
+                    <a href="./index.html" class="footer_logo">
+                        <img src="./assets/images/logo.svg" alt="">
+                    </a>
+                    <p class="footer_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, ullam.</p>
+                    <ul class="footer_list">
+                        <li class="footer_list-item">
+                            <a href="" class="footer_list-link">
+                                <i class="ri-twitter-line"></i>
+                            </a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="" class="footer_list-link">
+                                <i class="ri-dribbble-line"></i>
+                            </a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="" class="footer_list-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="" class="footer_list-link">
+                                <i class="ri-facebook-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="footer_copyright">&copy; salman shah 2022, All right reserved.</span>
+                </div>
+            </div>
+        </footer>
     <!-- SWIPERJS -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/app.js"></script>
